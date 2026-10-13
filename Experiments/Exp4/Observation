@@ -1,0 +1,28 @@
+1. AIM
+To calculate the total annual sales and percentage increase from the first quarter to the fourth quarter using NumPy.
+
+2. PROCEDURE
+1. Import NumPy.
+2. Create an array containing sales for four quarters.
+3. Calculate total sales using np.sum().
+4. Calculate percentage increase using arithmetic operations.
+
+3. CODE
+import numpy as np
+sales_data = np.array([10000, 12000, 15000, 20000])
+total = np.sum(sales_data)
+increase = ((sales_data[3] - sales_data[0]) / sales_data[0]) * 100print("Total annual sales:", total)
+print("Percentage increase:", increase, "%")
+
+4. INPUT
+Q1 = 10000
+Q2 = 12000
+Q3 = 15000
+Q4 = 20000
+
+5. OUTPUT
+Total annual sales: 57000
+Percentage increase: 100.0 %
+
+6. RESULT
+The total annual sales are 57,000, and the percentage increase from the first quarter to the fourth quarter is 100%.
