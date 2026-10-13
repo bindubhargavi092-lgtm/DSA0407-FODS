@@ -1,0 +1,32 @@
+1. AIM
+To find the average sale price of houses with more than four bedrooms using NumPy.
+
+2. PROCEDURE
+1. Import NumPy.
+2. Create a house data array.
+3. Select houses with more than four bedrooms.
+4. Calculate the average sale price using np.mean().
+
+3. CODE
+import numpy as np
+house_data = np.array([   
+ [3, 1200, 200000],   
+ [5, 1800, 350000],   
+ [6, 2200, 450000],   
+ [4, 1500, 250000]])
+houses = house_data[house_data[:, 0] > 4]
+avg = np.mean(houses[:, 2])
+print("Average sale price:", avg)
+
+4. INPUT
+Bedrooms  Square Feet  Sale Price
+3         1200         200000
+5         1800         350000
+6         2200         450000
+4         1500         250000
+
+5. OUTPUT
+Average sale price: 400000.0
+
+6. RESULT
+The average sale price of houses with more than four bedrooms is 400000.0.
