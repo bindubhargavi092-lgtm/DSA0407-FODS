@@ -1,0 +1,33 @@
+1. AIM
+To calculate the average fuel efficiency and percentage improvement between two car models using NumPy.
+
+2. PROCEDURE
+1. Import NumPy.
+2. Create an array of fuel efficiency values.
+3. Calculate the average using np.mean().
+4. Calculate the percentage improvement between two models.
+
+3. CODE
+import numpy as np
+fuel_efficiency = np.array([20, 25, 30, 35])
+avg = np.mean(fuel_efficiency)
+improvement = ((fuel_efficiency[3] - fuel_efficiency[0]) / fuel_efficiency[0]) * 100pr
+int("Average fuel efficiency:", avg, "MPG")
+print("Percentage improvement:", improvement, "%")
+
+
+
+4. INPUT
+Car 1 = 20 MPG
+Car 2 = 25 MPG
+Car 3 = 30 MPG
+Car 4 = 35 MPG
+
+
+5. OUTPUT
+Average fuel efficiency: 27.5 MPG
+Percentage improvement: 75.0 %
+
+
+6. RESULT
+The average fuel efficiency is 27.5 MPG, and the improvement from Car 1 to Car 4 is 75%.
