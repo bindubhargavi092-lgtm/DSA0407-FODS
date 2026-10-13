@@ -1,0 +1,28 @@
+1. AIM
+To calculate the average price of all products using NumPy.
+
+2. PROCEDURE
+1. Import NumPy.
+2. Create a 3×3 matrix containing product prices.
+3. Calculate the average using np.mean().
+4. Display the average price.
+
+3. CODE
+import numpy as np
+sales = np.array([    
+  [100, 200, 300],    
+  [150, 250, 350],    
+  [200, 300, 400]])
+avg = np.mean(sales)
+print("Average price:", avg)
+
+4. INPUT
+100 200 300
+150 250 350
+200 300 400
+
+5. OUTPUT
+Average price: 250.0
+
+6. RESULT
+The average price of all products is 250.0.
