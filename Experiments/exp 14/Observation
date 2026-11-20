@@ -1,0 +1,7 @@
+Start.
+Import the Pandas library.
+Create customer age data.
+Create a DataFrame.
+Calculate age frequency using value_counts().
+Display the frequency distribution.
+Stop.
