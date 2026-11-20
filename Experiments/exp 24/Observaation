@@ -1,0 +1,9 @@
+Start.
+Import Pandas and Scikit-learn libraries.
+Create a patient dataset with symptom features.
+Separate input features and target values.
+Train the KNN classifier.
+Get new patient details and k value.
+Predict the patient's condition.
+Display the prediction.
+stop.
