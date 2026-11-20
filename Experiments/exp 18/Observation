@@ -1,0 +1,9 @@
+Start.
+Import Pandas, Matplotlib and SciPy.
+Create age and body fat data.
+Calculate mean, median and standard deviation.
+Draw boxplots for both variables.
+Draw a scatter plot.
+Draw Q-Q plots.
+Display the results.
+Stop.
