@@ -1,0 +1,8 @@
+Start.
+Import NumPy and SciPy libraries.
+Enter conversion rate data for designs A and B.
+Perform an independent t-test.
+Calculate the p-value.
+Compare the p-value with 0.05.
+Display whether the difference is statistically significant.
+Stop.
