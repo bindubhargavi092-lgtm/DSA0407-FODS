@@ -1,0 +1,10 @@
+Start.
+Import Pandas, Matplotlib and required libraries.
+Load the data.csv file.
+Convert text into lowercase and remove punctuation.
+Remove common stop words.
+Calculate word frequencies.
+Get the top N words from the user.
+Display the top N words.
+Draw a bar graph.
+Stop.
