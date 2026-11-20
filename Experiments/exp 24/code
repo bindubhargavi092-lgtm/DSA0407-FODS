@@ -1,0 +1,30 @@
+from sklearn.neighbors import KNeighborsClassifier
+
+X = [
+    [20, 1],
+    [25, 2],
+    [30, 3],
+    [35, 4],
+    [40, 5],
+    [45, 6],
+    [50, 7],
+    [55, 8]
+]
+
+y = [0, 0, 0, 0, 1, 1, 1, 1]
+
+k = int(input("Enter k value: "))
+
+model = KNeighborsClassifier(n_neighbors=k)
+
+model.fit(X, y)
+
+age = int(input("Enter patient age: "))
+symptom = int(input("Enter symptom level: "))
+
+prediction = model.predict([[age, symptom]])
+
+if prediction[0] == 1:
+    print("Patient has the condition")
+else:
+    print("Patient does not have the condition")
