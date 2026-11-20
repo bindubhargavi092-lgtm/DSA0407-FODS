@@ -1,0 +1,9 @@
+Start.
+Import the Pandas library.
+Create the order_data DataFrame.
+Convert the order date column into datetime format.
+Group orders by Customer ID and count the orders.
+Calculate the average quantity for each product.
+Find the earliest and latest order dates.
+Display the results.
+stop.
