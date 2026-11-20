@@ -1,0 +1,9 @@
+Start.
+Import the required Scikit-learn libraries.
+Load the Iris dataset.
+Separate input features and target values.
+Train the Decision Tree classifier.
+Get flower measurements from the user.
+Predict the flower species.
+Display the result.
+Stop.
