@@ -1,0 +1,20 @@
+import pandas as pd
+from scipy import stats
+
+data = pd.DataFrame({
+    'Rating': [4, 5, 3, 4, 5, 4, 3, 5, 4, 5]
+})
+
+mean = data['Rating'].mean()
+
+sem = stats.sem(data['Rating'])
+
+ci = stats.t.interval(
+    0.95,
+    df=len(data)-1,
+    loc=mean,
+    scale=sem
+)
+
+print("Average Rating:", mean)
+print("95% Confidence Interval:", ci)
