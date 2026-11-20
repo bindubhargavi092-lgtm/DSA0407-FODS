@@ -1,0 +1,21 @@
+prices = [100, 200, 150]
+quantities = [2, 1, 3]
+
+discount = 10
+tax = 5
+
+total = 0
+
+for i in range(len(prices)):
+    total += prices[i] * quantities[i]
+
+discount_amount = total * discount / 100
+amount = total - discount_amount
+
+tax_amount = amount * tax / 100
+final_total = amount + tax_amount
+
+print("Total Amount:", total)
+print("Discount:", discount_amount)
+print("Tax:", tax_amount)
+print("Final Amount:", final_total)
