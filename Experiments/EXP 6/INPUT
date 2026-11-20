@@ -1,0 +1,4 @@
+Prices = [100, 200, 150]
+Quantities = [2, 1, 3]
+Discount = 10%
+Tax = 5%
