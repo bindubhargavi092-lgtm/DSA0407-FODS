@@ -1,0 +1,39 @@
+LINE PORT
+
+import matplotlib.pyplot as plt
+
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+sales = [100, 150, 120, 180, 200, 250]
+
+plt.plot(months, sales, marker='o')
+plt.title("Monthly Sales - Line Plot")
+plt.xlabel("Months")
+plt.ylabel("Sales")
+plt.show()
+
+
+  SCATTER PLOT
+
+  import matplotlib.pyplot as plt
+
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+sales = [100, 150, 120, 180, 200, 250]
+
+plt.scatter(months, sales)
+plt.title("Monthly Sales - Scatter Plot")
+plt.xlabel("Months")
+plt.ylabel("Sales")
+plt.show()
+
+  BAR PLOT
+
+  import matplotlib.pyplot as plt
+
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+sales = [100, 150, 120, 180, 200, 250]
+
+plt.bar(months, sales)
+plt.title("Monthly Sales - Bar Plot")
+plt.xlabel("Months")
+plt.ylabel("Sales")
+plt.show()
