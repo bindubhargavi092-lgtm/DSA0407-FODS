@@ -1,0 +1,8 @@
+Start.
+Import the required libraries.
+Create a customer reviews dataset.
+Convert all reviews into lowercase.
+Split the reviews into individual words.
+Count the frequency of each word.
+Display the word frequencies.
+Stop.
