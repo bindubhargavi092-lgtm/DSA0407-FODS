@@ -1,0 +1,9 @@
+Start.
+Import the Pandas library.
+Create the sales DataFrame.
+Group the data by product name.
+Calculate the total quantity sold for each product.
+Sort the products in descending order.
+Select the top 5 products.
+Display the results.
+Stop.
