@@ -1,0 +1,10 @@
+Start.
+Import NumPy, Pandas and SciPy.
+Load the rare_elements.csv file.
+Get sample size, confidence level and precision from the user.
+Select a random sample.
+Calculate the sample mean and standard deviation.
+Calculate the confidence interval.
+Estimate the required sample size for the desired precision.
+Display the results.
+Stop.
