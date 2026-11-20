@@ -1,0 +1,9 @@
+Start.
+Import the Matplotlib library.
+Initialize months and sales data.
+Create a line plot using plt.plot().
+Create a scatter plot using plt.scatter().
+Create a bar plot using plt.bar().
+Add titles and axis labels.
+Display all plots.
+Stop.
