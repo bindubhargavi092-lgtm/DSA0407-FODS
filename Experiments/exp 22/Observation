@@ -1,0 +1,8 @@
+Start.
+Import Pandas and SciPy libraries.
+Load customer_reviews.csv.
+Calculate the mean rating.
+Calculate the standard error.
+Calculate the 95% confidence interval.
+Display the mean and confidence interval.
+Stop.
