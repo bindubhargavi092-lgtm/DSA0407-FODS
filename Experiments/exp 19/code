@@ -1,0 +1,26 @@
+import numpy as np
+from scipy import stats
+
+drug = [12, 15, 14, 10, 13, 16, 11, 14, 15, 13]
+
+placebo = [5, 7, 6, 4, 8, 5, 6, 7, 4, 6]
+
+def confidence_interval(data):
+    mean = np.mean(data)
+    sem = stats.sem(data)
+    ci = stats.t.interval(
+        0.95,
+        df=len(data)-1,
+        loc=mean,
+        scale=sem
+    )
+    return mean, ci
+
+m1, ci1 = confidence_interval(drug)
+m2, ci2 = confidence_interval(placebo)
+
+print("Drug Mean:", m1)
+print("Drug 95% CI:", ci1)
+
+print("\nPlacebo Mean:", m2)
+print("Placebo 95% CI:", ci2)
