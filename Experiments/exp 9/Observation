@@ -1,0 +1,9 @@
+Start.
+Import the Pandas library.
+Create the property_data DataFrame.
+Group properties by location.
+Calculate the average listing price for each location.
+Filter properties with more than four bedrooms.
+Find the property with the largest area.
+Display the results.
+Stop.
