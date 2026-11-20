@@ -1,0 +1,8 @@
+Start.
+Open the text file.
+Read the contents of the file.
+Convert the text into lowercase.
+Split the text into words.
+Count the frequency of each word.
+Display the word frequency.
+Stop.
