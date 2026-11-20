@@ -1,0 +1,34 @@
+import numpy as np
+import pandas as pd
+from scipy import stats
+import math
+
+data = pd.read_csv("rare_elements.csv")
+
+values = data.iloc[:, 0].dropna().values
+
+n = int(input("Enter sample size: "))
+confidence = float(input("Enter confidence level (e.g. 95): "))
+precision = float(input("Enter desired precision: "))
+
+sample = np.random.choice(values, n, replace=False)
+
+mean = np.mean(sample)
+std = np.std(sample, ddof=1)
+
+alpha = 1 - confidence / 100
+
+t_value = stats.t.ppf(1-alpha/2, n-1)
+
+margin = t_value * std / math.sqrt(n)
+
+lower = mean - margin
+upper = mean + margin
+
+required_n = math.ceil(
+    (stats.norm.ppf(1-alpha/2) * std / precision) ** 2
+)
+
+print("Point Estimate:", mean)
+print("Confidence Interval:", lower, "to", upper)
+print("Required Sample Size:", required_n)
