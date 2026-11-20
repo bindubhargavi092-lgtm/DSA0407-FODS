@@ -1,0 +1,8 @@
+Start.
+Import the Matplotlib library.
+Initialize months, temperature, and rainfall data.
+Create a line plot for temperature.
+Create a scatter plot for rainfall.
+Add titles and axis labels.
+Display both plots.
+Stop.
