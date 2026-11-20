@@ -1,0 +1,8 @@
+Start.
+Import the Pandas library.
+Create post likes data.
+Create a DataFrame.
+Calculate the frequency of likes using value_counts().
+Sort the frequency values.
+Display the results.
+Stop.
