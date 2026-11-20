@@ -1,0 +1,10 @@
+Start.
+Import NumPy, SciPy and Matplotlib.
+Enter control and treatment group data.
+Calculate the mean of both groups.
+Perform an independent t-test.
+Calculate the p-value.
+Compare the p-value with 0.05.
+Display the result.
+Draw a bar graph.
+Stop.
