@@ -1,0 +1,10 @@
+Start.
+Import the Matplotlib library.
+Initialize the monthly sales data.
+Create a line plot using plt.plot().
+Add title and axis labels.
+Display the line plot using plt.show().
+Create a bar plot using plt.bar().
+Add title and axis labels.
+Display the bar plot using plt.show().
+Stop.
